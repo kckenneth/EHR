@@ -1,3 +1,9 @@
+# EHR 
+
+<a href=https://github.com/kckenneth/EHR/blob/master/elasticsearch_setup.md><< Elasticsearch setup</a>  
+**== Indexing EHR**
+
+
 # Indexing EHR database in Elasticsearch
 
 For inserting database into elasticsearch by python API, go <a href=https://elasticsearch-py.readthedocs.io/en/master/>here</a>. 
