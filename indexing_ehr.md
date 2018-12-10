@@ -17,7 +17,7 @@ Make sure you use `-O` when you download the file. `-k` is to keep when decompre
 ## Python API script
 
 ```
-# vi imdb_insert.py
+# vi ehr_insert.py
 ```
 Copy and paste the following script
 
