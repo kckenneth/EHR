@@ -7,7 +7,7 @@
 # EHR
 
 **== 1. Elasticsearch setup**  
-<a href=https://github.com/kckenneth/EHR/blob/master/indexing_ehr.md> 2. Indexing EHR</a>
+<a href=https://github.com/kckenneth/EHR/blob/master/indexing_ehr.md>>> 2. Indexing EHR</a>
 
 # Setup Virtual Machine (VM)
 
