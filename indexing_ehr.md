@@ -1,7 +1,7 @@
 # EHR 
 
-<a href=https://github.com/kckenneth/EHR/blob/master/elasticsearch_setup.md><< Elasticsearch setup</a>  
-**== Indexing EHR**
+<a href=https://github.com/kckenneth/EHR/blob/master/elasticsearch_setup.md><< 1. Elasticsearch setup</a>  
+**== 2. Indexing EHR**
 
 
 # Indexing EHR database in Elasticsearch
