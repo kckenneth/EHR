@@ -53,8 +53,9 @@ with open(fname) as f:
     for fields in csvreader:
         body = {}
         for i in range(len(fields)):
-            body[headers[i]] = fields[i]
-	result = es.index(index=index, doc_type=doc_type, id=body["tconst"], body=body)
+            body["Medical Condition"] = fields
+	    print("this is body: ", body)
+	result = es.index(index=index, doc_type=doc_type, id=count, body=body)
         count += 1
 
 	# to check regulary if the database is properly inserted
@@ -70,7 +71,7 @@ Before you launch the python script, make sure you already launched the elastics
 
 ```
 # chmod 755 imdb_insert.py
-# python imdb_insert.py ehr_samples.csv
+# python ehr_insert.py ehr_samples.csv
 10000 records inserted
 20000 records inserted
 ...
