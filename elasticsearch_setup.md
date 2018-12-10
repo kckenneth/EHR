@@ -4,7 +4,10 @@
 |Utility | Elasticsearch, CentOS |
 |Date | 12/01/2018 |
 
-# Elasticsearch
+# EHR
+
+**== 1. Elasticsearch setup**  
+<a href=https://github.com/kckenneth/EHR/blob/master/indexing_ehr.md> 2. Indexing EHR</a>
 
 # Setup Virtual Machine (VM)
 
