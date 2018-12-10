@@ -143,6 +143,10 @@ Since we don't have the query word `test` in our database, it throws out the emp
 ```
 yum install git
 ```
+Check git version
+```
+git --version
+```
 
 # Updating Elasticsearch database
 
