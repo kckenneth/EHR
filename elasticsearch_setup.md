@@ -2,15 +2,15 @@
 |-----------|----------------------------------|
 |Author | Kenneth Chen |
 |Utility | Elasticsearch, CentOS |
-|Date | 11/10/2018 |
+|Date | 12/01/2018 |
 
 # Elasticsearch
 
 # Setup Virtual Machine (VM)
 
-We will create a virtual server with CentOS, CPU=2, RAM=4GB, disk=100GB
+We will create a virtual server with CentOS, CPU=4, RAM=32GB, disk=100GB
 ```
-$ slcli vs create --datacenter=sjc01 --domain=brad.com --hostname=elasticsearch --os=CENTOS_LATEST_64 --cpu=2 --memory=4096 --billing=hourly --disk=100
+$ slcli vs create --datacenter=sjc01 --domain=mids.com --hostname=elasticsearch --os=CENTOS_LATEST_64 --cpu=2 --memory=32768 --billing=hourly --disk=100
 ```
 
 # Elasticsearch Installation
@@ -69,13 +69,7 @@ You can check `# netstat -tnlp` to confirm nothing is listening at port `9200`. 
 # kill -9 <PID>
 ```
 
-#### >> New version 6.4.3 [Not running 2018/11/10]
-```
-# cd elasticsearch-6.4.3
-# nohup ./bin/elasticsearch &
-```
-
-This launch the elasticsearch in the background at port `9200`. You can check if the server is listening. You need to first open a new terminal. 
+After nohup command, this launch the elasticsearch in the background at port `9200`. You can check if the server is listening. You need to first open a new terminal. 
 ```
 $ ssh root@169.54.131.136
 # netstat -tnlp 
@@ -93,7 +87,7 @@ So the elasticsearch program is up and running and listening at the port `9200`.
 
 ### 1. Check from the browser
 ```
-169.54.131.136:9200
+xxx.xx.xx.xxx:9200
 ```
 ### 2. Check from the VM terminal
 ```
@@ -145,6 +139,11 @@ Since we don't have the query word `test` in our database, it throws out the emp
   }
 }
 ```
+# Install git 
+```
+yum install git
+```
+
 # Updating Elasticsearch database
 
 We will be now making IMDB database in elasticsearch for easy query in next step. 
