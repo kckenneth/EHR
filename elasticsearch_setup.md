@@ -150,6 +150,6 @@ git --version
 
 # Updating Elasticsearch database
 
-We will be now making IMDB database in elasticsearch for easy query in next step. 
+We will be now indexing EHR in elasticsearch for easy query in next step. 
 
-Follow those steps in <a href=https://github.com/kckenneth/Elasticsearch/blob/master/imdb_elasticsearch.md>here</a>.
+Follow those steps in <a href=https://github.com/kckenneth/EHR/blob/master/indexing_ehr.md>here</a>.
